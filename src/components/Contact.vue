@@ -162,10 +162,17 @@ const contactInfo = [
   {
     iconClass: "mask-phone",
     label: "Phone",
-    value: "+92-341-3888063",
+    value: "+92-355-4253136/+92-341-3888063",
     href: "tel:+923413888063",
      color: "bg-[#00FFAA]"
   },
+  {
+  iconClass: "mask-whatsapp", // Make sure you have this CSS class
+  label: "WhatsApp",
+  value: "+92-309-5629259", // Formatted display
+  href: "https://wa.me/923095629259", // WhatsApp click-to-chat link
+  color: "bg-[#25D366]" // WhatsApp brand green
+},
   {
     iconClass: "mask-map-pin",
     label: "Location", 
@@ -259,5 +266,10 @@ const openLinkedIn = () => {
 .mask-map-pin {
   -webkit-mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z'%3E%3C/path%3E%3Ccircle cx='12' cy='10' r='3'%3E%3C/circle%3E%3C/svg%3E");
   mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z'%3E%3C/path%3E%3Ccircle cx='12' cy='10' r='3'%3E%3C/circle%3E%3C/svg%3E");
+}
+
+.mask-whatsapp {
+  -webkit-mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath d='M17.5 6.5a9 9 0 1 0-2.4 6l1.6 4.6 4.6-1.6a9 9 0 0 0-3.8-9.6zm-5.5 8a1 1 0 1 1 0-2 1 1 0 0 1 0 2zm3 0a1 1 0 1 1 0-2 1 1 0 0 1 0 2zm-6 0a1 1 0 1 1 0-2 1 1 0 0 1 0 2z'/%3E%3C/svg%3E");
+  mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath d='M17.5 6.5a9 9 0 1 0-2.4 6l1.6 4.6 4.6-1.6a9 9 0 0 0-3.8-9.6zm-5.5 8a1 1 0 1 1 0-2 1 1 0 0 1 0 2zm3 0a1 1 0 1 1 0-2 1 1 0 0 1 0 2zm-6 0a1 1 0 1 1 0-2 1 1 0 0 1 0 2z'/%3E%3C/svg%3E");
 }
 </style>
