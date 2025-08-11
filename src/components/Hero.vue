@@ -118,7 +118,7 @@
 
 <script setup>
 import { ref } from 'vue'
-import avatarImg from '@/assets/hero-avatar.jpg'  // Vite supports this import
+import avatarImg from '@/assets/hero-avatar.jpeg'  // Vite supports this import
 import { computed } from 'vue'
 
 const profile = {
